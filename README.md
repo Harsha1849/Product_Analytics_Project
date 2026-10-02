@@ -1,12 +1,12 @@
-\# E-commerce Product Analytics
+# E-commerce Product Analytics
 
 
 
-\## User Behavior, Conversion, Retention \& Experimentation
+## User Behavior, Conversion, Retention & Experimentation
 
 
 
-\### Overview
+### Overview
 
 
 
@@ -18,25 +18,25 @@ The project follows an end-to-end product analytics workflow using event-level u
 
 
 
-\### Business Objectives
+### Business Objectives
 
 
 
-\- Analyze the user purchasing funnel
+- Analyze the user purchasing funnel
 
-\- Measure user engagement and activity
+- Measure user engagement and activity
 
-\- Analyze conversion behavior
+- Analyze conversion behavior
 
-\- Segment users into activity cohorts and measure retention
+- Segment users into activity cohorts and measure retention
 
-\- Demonstrate statistical experimentation methodology
+- Demonstrate statistical experimentation methodology
 
-\- Identify areas for further product investigation
+- Identify areas for further product investigation
 
 
 
-\### Dataset
+### Dataset
 
 
 
@@ -48,13 +48,13 @@ Key characteristics:
 
 
 
-\- 115,403 unique visitors
+- 115,403 unique visitors
 
-\- 214,787 events
+- 214,787 events
 
-\- 65,173 unique products
+- 65,173 unique products
 
-\- 133,336 inferred sessions
+- 133,336 inferred sessions
 
 
 
@@ -62,11 +62,11 @@ The primary event types include product views, add-to-cart events, and transacti
 
 
 
-\### Analysis Performed
+### Analysis Performed
 
 
 
-\#### 1. User Funnel Analysis
+#### 1. User Funnel Analysis
 
 
 
@@ -82,15 +82,15 @@ Key results:
 
 
 
-\- View → Cart conversion: 2.55%
+- View → Cart conversion: 2.55%
 
-\- Cart → Purchase conversion: 31.36%
+- Cart → Purchase conversion: 31.36%
 
-\- View → Purchase conversion: 0.80%
+- View → Purchase conversion: 0.80%
 
 
 
-\#### 2. Session Analysis
+#### 2. Session Analysis
 
 
 
@@ -98,7 +98,7 @@ User events were grouped into sessions using a 30-minute inactivity threshold, r
 
 
 
-\#### 3. User Engagement
+#### 3. User Engagement
 
 
 
@@ -106,13 +106,13 @@ Daily and weekly activity patterns were analyzed using active-user metrics.
 
 
 
-\- Average DAU: approximately 11,352
+- Average DAU: approximately 11,352
 
-\- Peak DAU: 13,789
+- Peak DAU: 13,789
 
 
 
-\#### 4. Cohort \& Retention Analysis
+#### 4. Cohort & Retention Analysis
 
 
 
@@ -128,7 +128,7 @@ Because the dataset covers only approximately 10 days, the retention analysis ha
 
 
 
-\#### 5. Statistical Experimentation
+#### 5. Statistical Experimentation
 
 
 
@@ -140,17 +140,17 @@ Results:
 
 
 
-\- Control conversion: 0.8095%
+- Control conversion: 0.8095%
 
-\- Treatment conversion: 0.7884%
+- Treatment conversion: 0.7884%
 
-\- Absolute difference: -0.0211 percentage points
+- Absolute difference: -0.0211 percentage points
 
-\- Relative lift: -2.61%
+- Relative lift: -2.61%
 
-\- p-value: 0.6871
+- p-value: 0.6871
 
-\- 95% confidence interval: -0.1238 to +0.0816 percentage points
+- 95% confidence interval: -0.1238 to +0.0816 percentage points
 
 
 
@@ -158,59 +158,59 @@ The simulated experiment did not provide sufficient evidence of a statistically 
 
 
 
-\### Key Findings
+### Key Findings
 
 
 
-\- A large drop-off occurs between product viewing and cart addition.
+- A large drop-off occurs between product viewing and cart addition.
 
-\- Users who added items to their cart converted at a substantially higher rate than the overall visitor population.
+- Users who added items to their cart converted at a substantially higher rate than the overall visitor population.
 
-\- User engagement varied throughout the observed period.
+- User engagement varied throughout the observed period.
 
-\- The short observation window limits long-term retention analysis.
+- The short observation window limits long-term retention analysis.
 
-\- The simulated A/A test demonstrated how conversion differences can be evaluated using statistical significance and confidence intervals.
-
-
-
-\### Tools \& Technologies
+- The simulated A/A test demonstrated how conversion differences can be evaluated using statistical significance and confidence intervals.
 
 
 
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Jupyter Notebook
-
-\- Statistical hypothesis testing
+### Tools & Technologies
 
 
 
-\### Project Structure
+- Python
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Jupyter Notebook
+
+- Statistical hypothesis testing
+
+
+
+### Project Structure
 
 
 
 ```text
 
-Product\_Analysis\_Project/
+Product_Analysis_Project/
 
 │
 
 ├── notebooks/
 
-│   └── Product\_Analytics.ipynb
+│   └── Product_Analytics.ipynb
 
 │
 
 ├── reports/
 
-│   └── Product\_Analytics\_Report.pdf
+│   └── Product_Analytics_Report.pdf
 
 │
 
